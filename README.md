@@ -41,7 +41,7 @@
         - Service Methods detected
         - Service Flow unbroken    
 
-4. [Application](https://www.dynatrace.com/support/help/shortlink/rum-application-concept) setup & reviewed
+4. [Application(s)](https://www.dynatrace.com/support/help/shortlink/rum-application-concept) setup & reviewed
     - Application created
       - [Application detection rules](https://www.dynatrace.com/support/help/shortlink/application-detection-rules) defined
     - [RUM injection](https://www.dynatrace.com/support/help/shortlink/rum-injection) working
