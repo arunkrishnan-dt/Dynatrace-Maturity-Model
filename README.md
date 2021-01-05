@@ -7,15 +7,15 @@
 
 ## Maturity Levels:
 
-Level 1: Onboard/Start with Dynatrace
+### Level 1: Onboard/Start with Dynatrace
 
-Level 2: Customized Monitoring
+### Level 2: Customized Monitoring
 
-Level 3: 360° coverage
+### Level 3: 360° coverage
 
-Level 4: Events Integration
+### Level 4: Events Integration
 
-Level 5: NoOps
+### Level 5: NoOps
 
 <br>
 
@@ -35,15 +35,15 @@ Level 5: NoOps
     - [Management Zones](https://www.dynatrace.com/support/help/shortlink/management-zones-hub) defined
 
 3. Hosts, Processes & Services reviewed
-    - [Host](https://www.dynatrace.com/support/help/shortlink/hosts-hub) metrics being collected (CPU, Mem, Disk, Network etc) 
-    - [Process](https://www.dynatrace.com/support/help/shortlink/processes-hubhttps://www.dynatrace.com/support/help/shortlink/processes-hub) metrics being collected (depends on process technology)
-    - [Services](https://www.dynatrace.com/support/help/shortlink/transactions-and-services-hub) discovered & metrics being collected
+    - [Host](https://www.dynatrace.com/support/help/shortlink/hosts-hub) metrics collected - CPU, Mem, Disk, Network etc
+    - [Process](https://www.dynatrace.com/support/help/shortlink/processes-hubhttps://www.dynatrace.com/support/help/shortlink/processes-hub) metrics collected - depends on process technology
+    - [Services](https://www.dynatrace.com/support/help/shortlink/transactions-and-services-hub) discovered & metrics collected
         - Service Methods detected
         - Service Flow unbroken    
 
 4. [Application](https://www.dynatrace.com/support/help/shortlink/rum-application-concept) setup & reviewed
     - Application created
-      - [Application detection rules](https://www.dynatrace.com/support/help/shortlink/application-detection-rules) defined.
+      - [Application detection rules](https://www.dynatrace.com/support/help/shortlink/application-detection-rules) defined
     - RUM injection works
     - [User Session](https://www.dynatrace.com/support/help/shortlink/user-session) reviewed
         -  [User Actions](https://www.dynatrace.com/support/help/shortlink/user-actions) being recorded
@@ -68,20 +68,20 @@ Level 5: NoOps
    - Other Host Setting reviewed and adjusted per requirement
 
 2. [Process Groups](https://www.dynatrace.com/support/help/shortlink/processes-hubhttps://www.dynatrace.com/support/help/shortlink/processes-hub)
-   - Processs Group composition reviewed and [Process Group detection rules](https://www.dynatrace.com/support/help/shortlink/process-groups) created where required.
-   - [Process Group naming rules](https://www.dynatrace.com/support/help/shortlink/process-group-naming) created/adjusted where required.
-   - [Process Group availability rules](https://www.dynatrace.com/support/help/shortlink/process-group-alerting) setup.
-   - [Custom Alerts](https://www.dynatrace.com/support/help/shortlink/event-types-custom-alerts) setup where required.
+   - Processs Group composition reviewed and [Process Group detection rules](https://www.dynatrace.com/support/help/shortlink/process-groups) created where required
+   - [Process Group naming rules](https://www.dynatrace.com/support/help/shortlink/process-group-naming) created/adjusted where required
+   - [Process Group availability rules](https://www.dynatrace.com/support/help/shortlink/process-group-alerting) setup
+   - [Custom Alerts](https://www.dynatrace.com/support/help/shortlink/event-types-custom-alerts) setup where required
 
 3. [Service](https://www.dynatrace.com/support/help/shortlink/transactions-and-services-hub)
-   -  [Service naming rules](https://www.dynatrace.com/support/help/shortlink/custom-service-names) created/adjusted where required.
-   -  Service url cleanup & request naming rules created/adjusted as required under `Service Settings > Web request naming`.
-   -  Service anomaly detection settings adjusted where required under `Service Settings > Anomaly detection`.
+   -  [Service naming rules](https://www.dynatrace.com/support/help/shortlink/custom-service-names) created/adjusted where required
+   -  Service url cleanup & request naming rules created/adjusted as required under `Service Settings > Web request naming`
+   -  Service anomaly detection settings adjusted where required under `Service Settings > Anomaly detection`
 
 4. [Application](https://www.dynatrace.com/support/help/shortlink/rum-application-concept)
-   -  [User Tags](https://www.dynatrace.com/support/help/shortlink/user-tagging) setup.
-   -  [User action naming](https://www.dynatrace.com/support/help/shortlink/custom-names) rule setup where required.
-   -  [Error rules](https://www.dynatrace.com/support/help/shortlink/configure-application-errors) customized where required.
+   -  [User Tags](https://www.dynatrace.com/support/help/shortlink/user-tagging) setup
+   -  [User action naming](https://www.dynatrace.com/support/help/shortlink/custom-names) rule setup where required
+   -  [Error rules](https://www.dynatrace.com/support/help/shortlink/configure-application-errors) customized where required
    -  Application anomaly detection settings adjusted under `Application settings > Anomaly detection`
 
 <br>
@@ -91,14 +91,14 @@ Level 5: NoOps
 1. [Synthetic Monitoring](https://www.dynatrace.com/support/help/shortlink/synthetic-hub) of Web pages & APIs setup
 
 2. [Plugins/Extensions](https://www.dynatrace.com/support/help/shortlink/extensions-hub) setup for metrics not monitored out-of-the-box by OneAgents
-   -  [Official Dynatrace extensions](https://www.dynatrace.com/support/help/shortlink/other-technologies-subsection#dynatrace-extension-required) setup where required.
-   -  [Custom Extensions](https://www.dynatrace.com/support/help/shortlink/extensions-hub) capability explored where required.
+   -  [Official Dynatrace extensions](https://www.dynatrace.com/support/help/shortlink/other-technologies-subsection#dynatrace-extension-required) setup where required
+   -  [Custom Extensions](https://www.dynatrace.com/support/help/shortlink/extensions-hub) capability explored where required
 
-3. [Additional custom events](https://www.dynatrace.com/support/help/shortlink/api-events) sent to Dynatrace where required.
+3. [Additional custom events](https://www.dynatrace.com/support/help/shortlink/api-events) sent to Dynatrace where required
 
-4. [SLOs & SLIs](https://www.dynatrace.com/support/help/shortlink/objectives-hub) defined and added to dashboard & alerting.
+4. [SLOs & SLIs](https://www.dynatrace.com/support/help/shortlink/objectives-hub) defined and added to dashboard & alerting
 
-5. Advanced [dashboards](https://www.dynatrace.com/support/help/shortlink/dashboards-hub) created as required.
+5. Advanced [dashboards](https://www.dynatrace.com/support/help/shortlink/dashboards-hub) created as required
 
 <br>
 
@@ -115,11 +115,11 @@ Level 5: NoOps
 
 ## Level 5: NoOps
 
-1. [Load testing tools integration](https://www.dynatrace.com/support/help/shortlink/load-testing-process) setup.
+1. [Load testing tools integration](https://www.dynatrace.com/support/help/shortlink/load-testing-process) setup
 
-1. [Deployment automation](https://www.dynatrace.com/support/help/shortlink/third-party-integrations-hub#deployment-automation) setup.
+1. [Deployment automation](https://www.dynatrace.com/support/help/shortlink/third-party-integrations-hub#deployment-automation) setup
    
-2. [Self healing](https://www.dynatrace.com/news/blog/unbreakable-devops-pipeline-shift-left-shift-right-self-healing/) setup.
+2. [Self healing](https://www.dynatrace.com/news/blog/unbreakable-devops-pipeline-shift-left-shift-right-self-healing/) setup
 
 3. Quality gates
 
