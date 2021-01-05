@@ -67,7 +67,7 @@
    - Host anomaly settings adjusted at Host or Host Group level where required. Option available under `Host/HostGroup settings > Anomaly detection`
    - Other Host settings reviewed and adjusted per requirement
 
-2. [Process Groups](https://www.dynatrace.com/support/help/shortlink/processes-hubhttps://www.dynatrace.com/support/help/shortlink/processes-hub)
+2. [Process Group](https://www.dynatrace.com/support/help/shortlink/processes-hubhttps://www.dynatrace.com/support/help/shortlink/processes-hub)
    - Processs Group composition reviewed and [Process Group detection rules](https://www.dynatrace.com/support/help/shortlink/process-groups) created where required
    - [Process Group naming rules](https://www.dynatrace.com/support/help/shortlink/process-group-naming) created/adjusted where required
    - [Process Group availability rules](https://www.dynatrace.com/support/help/shortlink/process-group-alerting) setup
