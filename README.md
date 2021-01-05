@@ -1,6 +1,8 @@
 # Dynatrace Maturity Model for Teams
 
-*Note: This is not an official Dynatrace document. Please treat as such.*
+*Note:* 
+- This is not an official Dynatrace document. Please treat as such.
+- Document creation in progress
 
 
 ![Maturity_Model_Image](./images/maturity_model_plane_2.png)
