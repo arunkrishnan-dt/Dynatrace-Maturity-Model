@@ -11,7 +11,7 @@
 
 ### Level 2: Customized Monitoring
 
-### Level 3: 360° coverage
+### Level 3: 360° Coverage
 
 ### Level 4: Events Integration
 
@@ -21,14 +21,14 @@
 
 ## Level 1: Onboard/Start with Dynatrace
 
-1. [OneAgent Installed](https://www.dynatrace.com/support/help/shortlink/oneagent-hub)
-    - [Install using OneAgent Package](https://www.dynatrace.com/support/help/shortlink/oneagent-hub#installation-and-operation)
+1. [OneAgent installed](https://www.dynatrace.com/support/help/shortlink/oneagent-hub)
+    - [Install using OneAgent package](https://www.dynatrace.com/support/help/shortlink/oneagent-hub#installation-and-operation)
     - Automation
-        - [Ansible Collection](https://www.dynatrace.com/support/help/shortlink/oneagent-ansible)
+        - [Ansible collection](https://www.dynatrace.com/support/help/shortlink/oneagent-ansible)
         - Chef (coming soon)
         - Puppet (coming soon)
 
-2. [Entities Grouped](https://www.dynatrace.com/support/help/shortlink/tags-and-metadata-hub)
+2. [Entities grouped](https://www.dynatrace.com/support/help/shortlink/tags-and-metadata-hub)
     - [HostGroups](https://www.dynatrace.com/support/help/shortlink/host-groups) applied
     - [Metadata](https://www.dynatrace.com/support/help/shortlink/tagging-environment-variable) defined
     - [Tags](https://www.dynatrace.com/support/help/shortlink/tagging) defined
@@ -36,7 +36,7 @@
 
 3. Hosts, Processes & Services reviewed
     - [Host](https://www.dynatrace.com/support/help/shortlink/hosts-hub) metrics collected - CPU, Mem, Disk, Network etc
-    - [Process](https://www.dynatrace.com/support/help/shortlink/processes-hubhttps://www.dynatrace.com/support/help/shortlink/processes-hub) metrics collected - depends on process technology
+    - [Process](https://www.dynatrace.com/support/help/shortlink/processes-hubhttps://www.dynatrace.com/support/help/shortlink/processes-hub) metrics collected - metrics depend on process technology
     - [Services](https://www.dynatrace.com/support/help/shortlink/transactions-and-services-hub) discovered & metrics collected
         - Service Methods detected
         - Service Flow unbroken    
@@ -44,13 +44,13 @@
 4. [Application](https://www.dynatrace.com/support/help/shortlink/rum-application-concept) setup & reviewed
     - Application created
       - [Application detection rules](https://www.dynatrace.com/support/help/shortlink/application-detection-rules) defined
-    - RUM injection works
+    - [RUM injection](https://www.dynatrace.com/support/help/shortlink/rum-injection) working
     - [User Session](https://www.dynatrace.com/support/help/shortlink/user-session) reviewed
-        -  [User Actions](https://www.dynatrace.com/support/help/shortlink/user-actions) being recorded
+        -  [User Actions](https://www.dynatrace.com/support/help/shortlink/user-actions) recorded
     - [Async web requests & SPAs](https://www.dynatrace.com/support/help/shortlink/capture-xhr-actions) capture enabled and working
 
 5. [Problem](https://www.dynatrace.com/support/help/shortlink/problem-overview-page) detection reviewed and Alerting setup
-    - Auto-generated [Problems](https://www.dynatrace.com/support/help/shortlink/problems-intro) reviewed and thresholds adjusted where required
+    - Auto-generated [Problems](https://www.dynatrace.com/support/help/shortlink/problems-intro) reviewed and [thresholds adjusted](https://www.dynatrace.com/support/help/shortlink/problem-detection-sensitivity) where required
     - [Alerting Profiles](https://www.dynatrace.com/support/help/shortlink/alerting-profiles) setup
     - [Problem Notifications](https://www.dynatrace.com/support/help/shortlink/third-party-integrations-hub) setup
     - [Custom Alerts](https://www.dynatrace.com/support/help/shortlink/event-types-custom-alerts) setup where required
@@ -62,10 +62,10 @@
 ## Level 2: Customized Monitoring
 
 1. [Host](https://www.dynatrace.com/support/help/shortlink/hosts-hub)
-   - Technology Monitoring Enabled/Disabled per requirement under `Host Settings > General > Monitored Technologies`
-   - Process Monitoring Enabled/Disabled per requirement under `Host Settings > Detected processes`
+   - Technology monitoring enabled/disabled per requirement under `Host Settings > General > Monitored Technologies`
+   - Process monitoring enabled/eisabled per requirement under `Host Settings > Detected processes`
    - Host anomaly settings adjusted at Host or Host Group level where required. Option available under `Host/HostGroup settings > Anomaly detection`
-   - Other Host Setting reviewed and adjusted per requirement
+   - Other Host settings reviewed and adjusted per requirement
 
 2. [Process Groups](https://www.dynatrace.com/support/help/shortlink/processes-hubhttps://www.dynatrace.com/support/help/shortlink/processes-hub)
    - Processs Group composition reviewed and [Process Group detection rules](https://www.dynatrace.com/support/help/shortlink/process-groups) created where required
@@ -75,8 +75,8 @@
 
 3. [Service](https://www.dynatrace.com/support/help/shortlink/transactions-and-services-hub)
    -  [Service naming rules](https://www.dynatrace.com/support/help/shortlink/custom-service-names) created/adjusted where required
-   -  Service url cleanup & request naming rules created/adjusted as required under `Service Settings > Web request naming`
-   -  Service anomaly detection settings adjusted where required under `Service Settings > Anomaly detection`
+   -  Service url cleanup & request naming rules created/adjusted  under `Service Settings > Web request naming` as required
+   -  Service anomaly detection settings adjusted under `Service Settings > Anomaly detection` where required
 
 4. [Application](https://www.dynatrace.com/support/help/shortlink/rum-application-concept)
    -  [User Tags](https://www.dynatrace.com/support/help/shortlink/user-tagging) setup
@@ -104,10 +104,10 @@
 
 ## Level 4: Events Integration
 
-1. [ITSM/ITOM Integration](https://www.dynatrace.com/support/help/shortlink/third-party-integrations-hub) Setup
+1. [ITSM/ITOM Integration](https://www.dynatrace.com/support/help/shortlink/third-party-integrations-hub) setup
     - [ServiceNow integration](https://www.dynatrace.com/support/help/shortlink/servicenow)
     - [Jira integration](https://www.dynatrace.com/support/help/shortlink/jira)
-    - [OpsFenie integration](https://www.dynatrace.com/support/help/shortlink/opsgenie)
+    - [OpsGenie integration](https://www.dynatrace.com/support/help/shortlink/opsgenie)
     - [PagerDuty integration](https://www.dynatrace.com/support/help/shortlink/pagerduty)
     - [xMatters integration](https://www.dynatrace.com/support/help/shortlink/id_xmatters-integration)
 
