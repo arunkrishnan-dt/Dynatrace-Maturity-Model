@@ -15,7 +15,7 @@ Level 3: 360° coverage
 
 Level 4: Events Integration
 
-Level 5: CI/CD Integration & DevOps
+Level 5: NoOps
 
 <br>
 
