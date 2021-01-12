@@ -23,6 +23,10 @@
 
 ## Level 1: Onboard/Start with Dynatrace
 
+
+> See [Monaco Onboard: Quick onboard teams to Dynatrace](https://github.com/arunkrishnan-dt/Monaco-Onboard) for an easy script to get to Level 1.
+
+
 1. [OneAgent installed](https://www.dynatrace.com/support/help/shortlink/oneagent-hub)
     - [Install using OneAgent package](https://www.dynatrace.com/support/help/shortlink/oneagent-hub#installation-and-operation)
     - Automation
