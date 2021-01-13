@@ -69,7 +69,7 @@
 
 1. [Host](https://www.dynatrace.com/support/help/shortlink/hosts-hub)
    - Technology monitoring enabled/disabled per requirement under `Host Settings > General > Monitored Technologies`
-   - Process monitoring enabled/eisabled per requirement under `Host Settings > Detected processes`
+   - Process monitoring enabled/disabled per requirement under `Host Settings > Detected processes`
    - Host anomaly settings adjusted at Host or Host Group level where required. Option available under `Host/HostGroup settings > Anomaly detection`
    - Other Host settings reviewed and adjusted per requirement
 
